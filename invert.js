@@ -1,6 +1,6 @@
 function invert(obj){
-    var ret = {};
-    for(var key in obj){
+    let ret = {};
+    for(let key in obj){
       ret[obj[key]] = key;
     }
     return ret;
