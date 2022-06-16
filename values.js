@@ -3,7 +3,7 @@ function value(obj)
     let text = "";
     for (let x in obj) 
     {
-      text += obj[x]+ ", ";
+      text += testObject[x]+ ", ";
     }
     return text;
 }
